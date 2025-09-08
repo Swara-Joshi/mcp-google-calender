@@ -1,4 +1,4 @@
-# Google Calendar MCP Server
+# Google Calendar Integration with Claude via MCP Server
 
 A Model Context Protocol (MCP) server for Google Calendar integration with AI assistants.
 
@@ -57,14 +57,6 @@ git clone https://github.com/nspady/google-calendar-mcp.git
 cd google-calendar-mcp
 npm install
 npm run build
-```
-
-**Option 3: Docker**
-```bash
-git clone https://github.com/nspady/google-calendar-mcp.git
-cd google-calendar-mcp
-cp /path/to/your/gcp-oauth.keys.json .
-docker compose up
 ```
 
 ### Configuration Files
